@@ -2,60 +2,14 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG: Alcohol imagery reinforcement learning task with light and heavy drinker participants",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 54 community participants (high and low alcohol drinkers) performing an affective state reinforcement learning task with alcohol imagery. Data were collected between 2019-2021 at the University of New Mexico's Clinical Research Center Lab. The study investigates how alcohol imagery modulates reward-related neural responses in heavy versus light drinkers using event-related potential analysis.",
+  "methods_description": "EEG data were collected from N=54 community participants stratified by drinking status (high and low drinkers) during an affective state reinforcement learning task incorporating alcohol imagery. Data collection occurred at the Clinical Research Center Lab (CRCL) at the University of New Mexico between 2019 and 2021.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Garima Singh": {},
     "James F Cavanagh": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004515.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004515",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004515",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.18112/openneuro.ds004515",
-      "identifier_type": "DOI",
-      "relation_type": "IsVersionOf"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".JPG",
-    ".bmp",
-    ".db",
-    ".fdt",
-    ".jpeg",
-    ".jpg",
-    ".json",
-    ".m",
-    ".mat",
-    ".md",
-    ".png",
-    ".pptx",
-    ".set",
-    ".tsv",
-    ".xlsx"
-  ],
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 54 community participants (heavy and light drinkers) performing an affective state reinforcement learning task with alcohol imagery stimuli. Data were collected between 2019 and 2021 at the University of New Mexico's Clinical Research Center Laboratory. The study investigates neural correlates of reward processing and reinforcement learning in relation to alcohol consumption patterns.",
-  "methods_description": "EEG data were collected from 54 community participants stratified by drinking level (heavy and light drinkers) during an affective state reinforcement learning task incorporating alcohol imagery. Data collection occurred at the Clinical Research Center Laboratory (CRCL) at the University of New Mexico between 2019 and 2021.",
   "keywords": [
     {
       "term": "EEG"
@@ -73,17 +27,58 @@
       "term": "event-related potentials"
     },
     {
-      "term": "affective processing"
+      "term": "heavy drinkers"
     },
     {
-      "term": "alcohol"
-    },
-    {
-      "term": "alcohol consumption"
-    },
-    {
-      "term": "drinking behavior"
+      "term": "affective state"
     }
   ],
-  "source_hash": "3a1fbeaa5ac6d5f28820c3573d2c820dd73696df4568f583c77bb652f98b4479"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004515",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004515",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004515",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004515.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "10.1 GB (716 files)"
+  ],
+  "formats": [
+    ".JPG",
+    ".bmp",
+    ".db",
+    ".fdt",
+    ".jpeg",
+    ".jpg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".png",
+    ".pptx",
+    ".set",
+    ".tsv",
+    ".xlsx",
+    ".yml"
+  ],
+  "source_hash": "71f3532f8b58c9e9fcc6c468d7fcba465e87fe7ef8d71fc3e4fbc607587bad73"
 }
