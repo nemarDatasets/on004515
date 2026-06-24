@@ -1,13 +1,19 @@
 {
-    "Name": "EEG: Alcohol imagery reinforcement learning task with light and heavy drinker participants",
-    "ReferencesAndLinks": [
-        "pending"
-    ],
-    "Authors": [
-        "Garima Singh",
-        "James F Cavanagh"
-    ],
-    "License": "CC0",
-    "BIDSVersion": "1.1.1",
-    "DatasetDOI": "doi:10.18112/openneuro.ds004515.v1.0.0"
+  "Name": "EEG: Alcohol imagery reinforcement learning task with light and heavy drinker participants",
+  "ReferencesAndLinks": [
+    "pending"
+  ],
+  "Authors": [
+    "Garima Singh",
+    "James F Cavanagh"
+  ],
+  "License": "CC0",
+  "BIDSVersion": "1.1.1",
+  "DatasetDOI": "10.82901/nemar.on004515",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004515.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
