@@ -1,1 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004515-blue)](https://doi.org/10.82901/nemar.on004515)
+
 Affective state reinforcement learning task in N=54 Community participants.  High and low drinkers.  Data collected from 2019-2021 in the CRCL at UNM.  The paper [Singh, G., Campbell, E., Hogeveen, J; Witkiewitz,K., Claus, E.D., & Cavanagh, J.F.  Alcohol Imagery Boosts The Reward Positivity in Heavy Drinkers]  Under review at the moment.  Your best bet for understanding this task  would be to read that paper first.  - James F Cavanagh 08/02/2022
