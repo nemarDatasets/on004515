@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG: Alcohol imagery reinforcement learning task with light and heavy drinker participants",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 54 community participants (high and low alcohol drinkers) performing an affective state reinforcement learning task with alcohol imagery. Data were collected between 2019-2021 at the University of New Mexico's Clinical Research Center Lab. The study investigates how alcohol imagery modulates reward-related neural responses in heavy versus light drinkers using event-related potential analysis.",
-  "methods_description": "EEG data were collected from N=54 community participants stratified by drinking status (high and low drinkers) during an affective state reinforcement learning task incorporating alcohol imagery. Data collection occurred at the Clinical Research Center Lab (CRCL) at the University of New Mexico between 2019 and 2021.",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 54 community participants (high and low alcohol drinkers) performing an affective state reinforcement learning task with alcohol imagery. Data were collected between 2019-2021 at the University of New Mexico's Clinical Research Center Lab. The study investigates how alcohol imagery modulates reward-related neural responses, as indexed by the reward positivity component, in individuals with varying drinking patterns.",
+  "methods_description": "EEG data were collected from 54 community participants (high and low drinkers) during an affective state reinforcement learning task incorporating alcohol imagery. Data collection occurred at the Clinical Research Center Lab (CRCL) at the University of New Mexico between 2019 and 2021.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,10 +27,19 @@
       "term": "event-related potentials"
     },
     {
-      "term": "heavy drinkers"
+      "term": "substance use"
+    },
+    {
+      "term": "reward positivity"
+    },
+    {
+      "term": "alcohol use disorder"
     },
     {
       "term": "affective state"
+    },
+    {
+      "term": "heavy drinkers"
     }
   ],
   "related_identifiers": [
