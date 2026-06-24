@@ -1,28 +1,89 @@
 {
   "version": "2.0",
-  "dataset_id": "on004515",
-  "source": "openneuro",
-  "source_id": "ds004515",
+  "pipeline_stage": "enriched",
   "title": "EEG: Alcohol imagery reinforcement learning task with light and heavy drinker participants",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Garima Singh": {},
     "James F Cavanagh": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004515.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004515",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004515",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004515",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".JPG",
+    ".bmp",
+    ".db",
+    ".fdt",
+    ".jpeg",
+    ".jpg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".png",
+    ".pptx",
+    ".set",
+    ".tsv",
+    ".xlsx"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 54 community participants (heavy and light drinkers) performing an affective state reinforcement learning task with alcohol imagery stimuli. Data were collected between 2019 and 2021 at the University of New Mexico's Clinical Research Center Laboratory. The study investigates neural correlates of reward processing and reinforcement learning in relation to alcohol consumption patterns.",
+  "methods_description": "EEG data were collected from 54 community participants stratified by drinking level (heavy and light drinkers) during an affective state reinforcement learning task incorporating alcohol imagery. Data collection occurred at the Clinical Research Center Laboratory (CRCL) at the University of New Mexico between 2019 and 2021.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "reinforcement learning"
+    },
+    {
+      "term": "reward processing"
+    },
+    {
+      "term": "alcohol imagery"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "affective processing"
+    },
+    {
+      "term": "alcohol"
+    },
+    {
+      "term": "alcohol consumption"
+    },
+    {
+      "term": "drinking behavior"
+    }
+  ],
+  "source_hash": "3a1fbeaa5ac6d5f28820c3573d2c820dd73696df4568f583c77bb652f98b4479"
 }
