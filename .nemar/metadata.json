@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG: Alcohol imagery reinforcement learning task with light and heavy drinker participants",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 54 community participants (high and low alcohol drinkers) performing an affective state reinforcement learning task with alcohol imagery. Data were collected between 2019-2021 at the University of New Mexico's Clinical Research Center Lab. The study investigates how alcohol imagery modulates reward-related neural responses, as indexed by the reward positivity component, in individuals with varying drinking patterns.",
-  "methods_description": "EEG data were collected from 54 community participants (high and low drinkers) during an affective state reinforcement learning task incorporating alcohol imagery. Data collection occurred at the Clinical Research Center Lab (CRCL) at the University of New Mexico between 2019 and 2021.",
+  "description": "This dataset contains EEG recordings from an affective state reinforcement learning task performed by 54 community participants classified as light or heavy drinkers. The task involved alcohol-related imagery to examine reward-related neural responses, specifically the reward positivity, in relation to drinking status. Data were collected between 2019 and 2021 at the Clinical Research Center of the University of New Mexico.",
+  "methods_description": "EEG data were collected from N=54 community participants (light and heavy drinkers) performing an alcohol imagery reinforcement learning task between 2019 and 2021 at the CRCL, University of New Mexico.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,25 +18,18 @@
       "term": "reinforcement learning"
     },
     {
-      "term": "reward processing"
-    },
-    {
-      "term": "alcohol imagery"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "substance use"
+      "term": "Alcohol Drinking",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000428"
     },
     {
       "term": "reward positivity"
     },
     {
-      "term": "alcohol use disorder"
-    },
-    {
-      "term": "affective state"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
       "term": "heavy drinkers"
@@ -49,11 +42,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004515",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004515",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
@@ -62,6 +50,11 @@
       "identifier": "10.18112/openneuro.ds004515.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004515",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
