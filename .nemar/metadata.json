@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Alcohol imagery reinforcement learning task with light and heavy drinker participants",
-  "description": "This dataset contains EEG recordings from an affective state reinforcement learning task performed by 54 community participants classified as light or heavy drinkers. The task involved alcohol-related imagery to examine reward-related neural responses, specifically the reward positivity, in relation to drinking status. Data were collected between 2019 and 2021 at the Clinical Research Center of the University of New Mexico.",
-  "methods_description": "EEG data were collected from N=54 community participants (light and heavy drinkers) performing an alcohol imagery reinforcement learning task between 2019 and 2021 at the CRCL, University of New Mexico.",
+  "description": "EEG recordings from 54 community participants classified as light or heavy drinkers performing an affective-state reinforcement learning task involving alcohol imagery. The dataset supports investigation of reward-related neural responses, such as the reward positivity, in relation to drinking behavior. Data were collected between 2019 and 2021.",
+  "methods_description": "EEG was recorded from community participants (N=54; high and low drinkers) during an affective state reinforcement learning task. Data were collected from 2019 to 2021 in the CRCL at the University of New Mexico.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,21 +18,18 @@
       "term": "reinforcement learning"
     },
     {
-      "term": "Alcohol Drinking",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000428"
+      "term": "alcohol imagery"
     },
     {
       "term": "reward positivity"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+      "term": "heavy drinking"
     },
     {
-      "term": "heavy drinkers"
+      "term": "Alcohol Drinking",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000428"
     }
   ],
   "related_identifiers": [
@@ -62,7 +59,7 @@
     "eeg"
   ],
   "sizes": [
-    "10.1 GB (716 files)"
+    "9.45 GB (716 files)"
   ],
   "formats": [
     ".JPG",
